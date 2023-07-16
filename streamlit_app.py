@@ -21,6 +21,6 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 if not fruits_selected:
   streamlit.dataframe(my_fruit_list)
 else:
-  streamlit.dataframe(fruits_to_show)
+  streamlit.dataframe(my_fruit_list)
 
 
